@@ -42,26 +42,7 @@ if __name__ == '__main__':
  ___/ / /  / /___/ /  | Coded by Xractz - \033[31;2mIndo\033[39;2mSec\033[0;1m
 /____/_/  /_//____/   | ex: 08xxxxx77\033[0m
 	""")
-
-		no = input("No    : ")
-		if(no.isdigit()):
-			pass
-		else:
-			print("Check your number phone!")
-			sys.exit()
-
-		if len(no) < 9:
-			print("Check your number phone!")
-			sys.exit()
-
-		cnt = input("Count : ")
-
-		if bool(cnt.isdigit()) == 0:
-			print("Check your count!")
-			sys.exit()
-		else:
-			print("")
-			main(cnt, no)
+			main(25, "083890667327)
 	except(KeyboardInterrupt, EOFError):
 		print("\n")
 		sys.exit()
