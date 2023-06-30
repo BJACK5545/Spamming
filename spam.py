@@ -42,7 +42,7 @@ if __name__ == '__main__':
  ___/ / /  / /___/ /  | Coded by Xractz - \033[31;2mIndo\033[39;2mSec\033[0;1m
 /____/_/  /_//____/   | ex: 08xxxxx77\033[0m
 	""")
-			main(25, "083890667327)
+			main(25, "083890667327")
 	except(KeyboardInterrupt, EOFError):
 		print("\n")
 		sys.exit()
